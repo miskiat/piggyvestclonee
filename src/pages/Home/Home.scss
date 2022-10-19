@@ -1,0 +1,45 @@
+.navbar {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo-links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .links {
+    display: flex;
+
+    gap: 3rem;
+  }
+  button {
+    border-radius: 1rem;
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  .sign {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 6rem;
+    height: 4rem;
+  }
+  .sign:hover {
+    color: blue;
+    border: 1px solid blue;
+  }
+  .account {
+    background-color: black;
+    color: white;
+    border: blue;
+    width: 12rem;
+    height: 4rem;
+  }
+  .account:hover {
+    background-color: rgb(22, 97, 238);
+  }
+}
