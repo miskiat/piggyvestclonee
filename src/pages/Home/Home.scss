@@ -19,7 +19,6 @@
     font-size: medium;
     font-weight: 400;
     margin-left: 1rem;
-    cursor: pointer;
   }
   .sign {
     color: black;
@@ -39,6 +38,33 @@
     border: blue;
     width: 12rem;
     height: 4rem;
+  }
+  .account:hover {
+    background-color: rgb(22, 97, 238);
+  }
+}
+.hero {
+  height: 764px;
+  width: 100vw;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  .motto {
+    font-size: 4rem;
+    max-width: 29rem;
+  }
+  .goals {
+    max-width: 26rem;
+  }
+  .account {
+    background-color: black;
+    color: white;
+    border: blue;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 400;
   }
   .account:hover {
     background-color: rgb(22, 97, 238);

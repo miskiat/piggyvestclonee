@@ -2,13 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
-      <div>The Better Way to Save & Invest.</div>
-      <div>
+    <div className="hero">
+      <div className="motto">The Better Way to Save & Invest.</div>
+      <div className="goals">
         PiggyVest helps over 4 million customers achieve their financial goals
         by helping them save and invest with ease.
       </div>
-      <button>Create free account</button>
+      <button className="account">Create free account</button>
       <div>
         <button>
           <img
