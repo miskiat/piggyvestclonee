@@ -29,6 +29,7 @@ const Hero = () => {
           Get on Andriod
         </button>
       </div>
+      <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/header_Img_a2a9220bd6/header_Img_a2a9220bd6.png" />
     </div>
   );
 };
