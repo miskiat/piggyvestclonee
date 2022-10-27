@@ -9,13 +9,11 @@ const Hero = () => {
         by helping them save and invest with ease.
       </div>
       <button className="account">Create free account</button>
-      <div>
+      <div className="download">
         <button>
           <img
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/apple_icon_32ccc572ff/apple_icon_32ccc572ff.svg"
             alt="download-apple"
-            width="18"
-            height="22"
           />
           Get on iphone
         </button>
@@ -23,8 +21,6 @@ const Hero = () => {
           <img
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/google_icon_9867fc9be6/google_icon_9867fc9be6.svg"
             alt="download-google"
-            width="24"
-            height="24"
           />
           Get on Andriod
         </button>
