@@ -31,6 +31,7 @@
   .sign:hover {
     color: blue;
     border: 1px solid blue;
+    cursor: pointer;
   }
   .account {
     background-color: black;
@@ -41,6 +42,7 @@
   }
   .account:hover {
     background-color: rgb(22, 97, 238);
+    cursor: pointer;
   }
 }
 .hero {
@@ -51,6 +53,7 @@
   .motto {
     font-size: 4rem;
     max-width: 29rem;
+    display: flex;
   }
   .goals {
     max-width: 26rem;
@@ -70,8 +73,14 @@
     background-color: rgb(22, 97, 238);
   }
   .download {
-      width:10rem;
-      height:3rem;
-      border-radius: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .girly {
+    margin-left: 50rem;
   }
 }

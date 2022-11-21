@@ -9,15 +9,15 @@ const Hero = () => {
         by helping them save and invest with ease.
       </div>
       <button className="account">Create free account</button>
-      <div className="download">
-        <button>
+      <div>
+        <button className="download">
           <img
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/apple_icon_32ccc572ff/apple_icon_32ccc572ff.svg"
             alt="download-apple"
           />
           Get on iphone
         </button>
-        <button>
+        <button className="download">
           <img
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/google_icon_9867fc9be6/google_icon_9867fc9be6.svg"
             alt="download-google"
@@ -25,7 +25,10 @@ const Hero = () => {
           Get on Andriod
         </button>
       </div>
-      <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/header_Img_a2a9220bd6/header_Img_a2a9220bd6.png" />
+
+      <div className="girly">
+        <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/header_Img_a2a9220bd6/header_Img_a2a9220bd6.png" />
+      </div>
     </div>
   );
 };
