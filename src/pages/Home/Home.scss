@@ -46,28 +46,39 @@
   }
 }
 .hero {
+  display: flex;
   height: 764px;
-  width: 100vw;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  width: 80%;
+  margin: auto;
+
+  .hero-left {
+    margin-left: 10%;
+  }
+
   .motto {
     font-size: 4rem;
-    max-width: 29rem;
+    max-width: 40rem;
     display: flex;
+    margin-top: 15rem;
+    font-family: DM Sans, sans-serif;
+    font-weight: bolder;
   }
   .goals {
     max-width: 26rem;
+    margin: 2rem 0;
+    line-height: 2rem;
   }
   .account {
     background-color: black;
     color: white;
     border: blue;
     width: 12rem;
-    height: 4rem;
+    height: 3rem;
     border-radius: 1rem;
     cursor: pointer;
     font-size: medium;
     font-weight: 400;
+    margin: 2rem 0 0;
   }
   .account:hover {
     background-color: rgb(22, 97, 238);
@@ -77,10 +88,22 @@
     height: 3rem;
     border-radius: 1rem;
     background-color: white;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  .download-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .download:hover {
+    cursor: pointer;
+    margin-top: 1.75rem;
   }
   .girly {
-    margin-left: 50rem;
   }
 }
