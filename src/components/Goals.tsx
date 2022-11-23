@@ -14,7 +14,14 @@ const Goals = () => {
           secured by 256 bits SSL security encryption to ensure that your
           information is comepletely protected from fraud.
         </div>
+        <button>lern more ></button>
       </div>
+      <div>
+          <div>4 ways to build your savings</div>
+          <div>Earn 5%-15% when you save with any of these PiggyVest plans.</div>
+          <button>Start Saving</button>
+      </div>
+
     </div>
   );
 };
