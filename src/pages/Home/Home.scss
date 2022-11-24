@@ -110,9 +110,29 @@
 .goals {
   .security-badge {
     display: flex;
+    justify-content: center;
+    gap: 3rem;
   }
   .badge {
     height: 7rem;
     width: 6rem;
+  }
+  .security {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+  .security-info {
+    max-width: 40rem;
+    line-height: 2rem;
+  }
+  .learn {
+    color: #0d60d8;
+    border: none;
+    background-color: white;
+    font-size: medium;
+  }
+  .learn:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
