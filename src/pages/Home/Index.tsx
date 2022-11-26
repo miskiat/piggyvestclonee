@@ -3,6 +3,7 @@ import "./Home.scss";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import Goals from "../../components/Goals";
+import Investment from "../../components/Investment";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Goals />
+      <Investment />
     </div>
   );
 };

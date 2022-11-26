@@ -19,7 +19,7 @@ const Goals = () => {
           <button className="learn">Learn more </button>
         </div>
       </div>
-      <div className="investment">
+      <div className="packages">
         <div className="growth">
           <h1>4 ways to build your savings</h1>
           <p>Earn 5%-15% when you save with any of these PiggyVest plans.</p>
