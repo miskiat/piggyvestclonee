@@ -21,7 +21,7 @@ const Goals = () => {
     },
     {
       image:
-        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/target_6c049f3410/target_6c049f3410",
+        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/target_6c049f3410/target_6c049f3410.png",
       title: "Goal-oriented Savings",
       description:
         "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
