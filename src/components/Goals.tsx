@@ -1,6 +1,35 @@
 import React from "react";
+import Plan from "./Plan";
 
 const Goals = () => {
+  const Plans = [{
+    image: "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/piggy_df88262015/piggy_df88262015.png",
+    title:"Automated Savings",
+    description:"Build a dedicated savings faster on your terms automatically or manually.",
+    tag:"Piggybank",
+  },
+    {
+      image:
+        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/safelock_4e737ba7d3/safelock_4e737ba7d3.png",
+      title: "Fixed Savings",
+      description:
+        " Lock money away for a fixed duration with no acess to it until maturity. It's like having a custom fixed deposit.",
+      tag: "Savelock",
+    },
+    {
+      image:
+        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/target_6c049f3410/target_6c049f3410",
+      title: "Goal-oriented Savings",
+      description:"Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
+      tag: "Target Savings",
+    },
+    {
+      image: "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_d090f8bce2/flex_d090f8bce2.png",
+      title: "Flexible Savings",
+      description:"Save,transfer, withdraw,manage and organise your money for free at any time.",
+      tag: "Flex Naira",
+    }
+  ];
   return (
     <div className="goals">
       <div className="security-badge">
@@ -26,61 +55,37 @@ const Goals = () => {
           <button className="saving">Start Saving</button>
         </div>
         <div className="plans">
+          <Plan />
           <div className="piggybank">
-            <img
-              src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/piggy_df88262015/piggy_df88262015.png"
-              class="icon"
-              width="50"
-              height="50"
-            ></img>
-            <h2>Automated Savings</h2>
-            <p className="build">
-              Build a dedicated savings faster on your terms automatically or
-              manually.
-            </p>
-            <div className="arrow">Piggybank</div>
+            <h2></h2>
+            <p className="build"></p>
+            <div className="arrow"></div>
           </div>
           <div className="piggybank">
             <img
-              src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/safelock_4e737ba7d3/safelock_4e737ba7d3.png"
+              src=.png"
               class="icon"
               width="50"
               height="50"
             />
-            <h2>Fixed Savings</h2>
+            <h2></h2>
             <p className="build">
-              Lock money away for a fixed duration with no acess to it until
-              maturity. It's like having a custom fixed deposit.
+              
             </p>
-            <div className="arrow">Savelock</div>
+            <div className="arrow"></div>
           </div>
           <div className="piggybank">
             <img
-              src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/target_6c049f3410/target_6c049f3410.png"
+              src=""
               class="icon"
               width="50"
               height="50"
             />
-            <h2>Goal-oriented Savings</h2>
+            <h2></h2>
             <p className="build">
-              Reach all your savings goals faster. Save towards multiple goals
-              on your own or with a group.
+              
             </p>
-            <div className="arrow">Target Savings</div>
-          </div>
-          <div className="piggybank">
-            <img
-              src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_d090f8bce2/flex_d090f8bce2.png"
-              class="icon"
-              width="50"
-              height="50"
-            />
-            <h2>Flexible Savings</h2>
-            <p className="build">
-              Save,transfer, withdraw,manage and organise your money for free at
-              any time.
-            </p>
-            <div className="arrow">Flex Naira</div>
+            <div className="arrow"></div>
           </div>
         </div>
       </div>
