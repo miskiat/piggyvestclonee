@@ -2,12 +2,15 @@ import React from "react";
 import Plan from "./Plan";
 
 const Goals = () => {
-  const Plans = [{
-    image: "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/piggy_df88262015/piggy_df88262015.png",
-    title:"Automated Savings",
-    description:"Build a dedicated savings faster on your terms automatically or manually.",
-    tag:"Piggybank",
-  },
+  const plans = [
+    {
+      image:
+        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/piggy_df88262015/piggy_df88262015.png",
+      title: "Automated Savings",
+      description:
+        "Build a dedicated savings faster on your terms automatically or manually.",
+      tag: "Piggybank",
+    },
     {
       image:
         "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/safelock_4e737ba7d3/safelock_4e737ba7d3.png",
@@ -20,15 +23,18 @@ const Goals = () => {
       image:
         "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/target_6c049f3410/target_6c049f3410",
       title: "Goal-oriented Savings",
-      description:"Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
+      description:
+        "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
       tag: "Target Savings",
     },
     {
-      image: "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_d090f8bce2/flex_d090f8bce2.png",
+      image:
+        "https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_d090f8bce2/flex_d090f8bce2.png",
       title: "Flexible Savings",
-      description:"Save,transfer, withdraw,manage and organise your money for free at any time.",
+      description:
+        "Save,transfer, withdraw,manage and organise your money for free at any time.",
       tag: "Flex Naira",
-    }
+    },
   ];
   return (
     <div className="goals">
@@ -55,38 +61,14 @@ const Goals = () => {
           <button className="saving">Start Saving</button>
         </div>
         <div className="plans">
-          <Plan />
-          <div className="piggybank">
-            <h2></h2>
-            <p className="build"></p>
-            <div className="arrow"></div>
-          </div>
-          <div className="piggybank">
-            <img
-              src=.png"
-              class="icon"
-              width="50"
-              height="50"
+          {plans.map((plan) => (
+            <Plan
+              image={plan.image}
+              title={plan.title}
+              description={plan.description}
+              tag={plan.tag}
             />
-            <h2></h2>
-            <p className="build">
-              
-            </p>
-            <div className="arrow"></div>
-          </div>
-          <div className="piggybank">
-            <img
-              src=""
-              class="icon"
-              width="50"
-              height="50"
-            />
-            <h2></h2>
-            <p className="build">
-              
-            </p>
-            <div className="arrow"></div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
