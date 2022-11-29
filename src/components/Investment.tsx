@@ -8,12 +8,12 @@ const Investments = () => {
         style="opacity: 1;"
       /> */}
       <button className="returns">Up To 25% Returns</button>
-      <h1>Access investment opportunities</h1>
-      <p>
+      <h className="access">Access investment opportunities</h>
+      <p className="advice">
         Invest securely and confidently on the go. Grow your money confidently
         by investing in pre-vetted investment opportunities.
       </p>
-      <button>Learn more about Investments ></button>
+      <button className="learn">Learn more about Investments > </button>
     </div>
   );
 };

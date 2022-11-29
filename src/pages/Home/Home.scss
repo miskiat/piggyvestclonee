@@ -201,4 +201,26 @@
     font-weight: bold;
     font-size: medium;
   }
+  .access {
+    font-weight: bolder;
+    background-color: sandybrown;
+    font-size: xx-large;
+  }
+  .advice {
+    width: 27rem;
+    line-height: 2rem;
+    font-size: large;
+  }
+  .learn {
+    color: #8827f0;
+    border: none;
+    background-color: white;
+    font-size: medium;
+    font-weight: 600;
+    width: 17rem;
+  }
+  .learn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
