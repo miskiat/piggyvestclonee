@@ -193,16 +193,22 @@
   margin-top: 2rem;
   background-image: url("https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/PHOTO_2022_08_02_17_33_57_af95edcdcb/PHOTO_2022_08_02_17_33_57_af95edcdcb.jpg");
   display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+
   .investify {
     width: 18rem;
     height: 40rem;
+  }
+  .right {
+    margin: 8rem 2rem;
   }
   .returns {
     background-color: rgb(223, 213, 233);
     color: #8827f0;
     border-radius: 2rem;
-    width: 14rem;
-    height: 3rem;
+    width: 19rem;
+    height: 5rem;
     border: none;
     font-weight: bold;
     font-size: medium;
