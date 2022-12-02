@@ -2,7 +2,7 @@ import React from "react";
 
 const Ambassador = () => {
   return (
-    <div>
+    <div className="ambassador">
       <h1>Meet the saver of the month!</h1>
       <p>
         Every month, we shine a spotlight on one saver, asking them questions

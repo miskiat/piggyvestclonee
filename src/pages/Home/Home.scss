@@ -207,16 +207,15 @@
     background-color: rgb(223, 213, 233);
     color: #8827f0;
     border-radius: 2rem;
-    width: 19rem;
-    height: 5rem;
+    width: 12rem;
+    height: 2rem;
     border: none;
     font-weight: bold;
     font-size: medium;
   }
   .access {
     font-weight: bolder;
-    background-color: sandybrown;
-    font-size: xx-large;
+    font-size: xxx-large;
   }
   .advice {
     width: 27rem;
@@ -235,4 +234,8 @@
     cursor: pointer;
     text-decoration: underline;
   }
+}
+.ambassador {
+  background-color: sienna;
+  margin-top: 30rem;
 }
