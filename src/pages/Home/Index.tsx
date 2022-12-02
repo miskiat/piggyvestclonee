@@ -5,6 +5,7 @@ import Hero from "../../components/Hero";
 import Goals from "../../components/Goals";
 import Investment from "../../components/Investment";
 import Plan from "../../components/Plan";
+import Ambassador from "../../components/Ambassador";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Goals />
       <Investment />
       <Plan />
+      <Ambassador />
     </div>
   );
 };
