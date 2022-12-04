@@ -236,15 +236,19 @@
   }
 }
 .ambassador {
-  // margin-left: 15rem;
-  margin-top: 2rem;
+  padding-left: 15rem;
+  padding-top: 4rem;
   background-color: rgb(8, 86, 230);
   margin-top: 30rem;
-  height: 15rem;
+  height: 25rem;
   color: white;
   .introduction {
     font-size: xxx-large;
     max-width: 23rem;
+  }
+  .explanation {
+    max-width: 27rem;
+    font-size: large;
   }
   .button {
     border: none;
