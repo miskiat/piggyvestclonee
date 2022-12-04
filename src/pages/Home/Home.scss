@@ -236,10 +236,24 @@
   }
 }
 .ambassador {
-  margin-left: 15rem;
+  // margin-left: 15rem;
   margin-top: 2rem;
-  background-color: sienna;
+  background-color: rgb(8, 86, 230);
   margin-top: 30rem;
-  width: 45rem;
   height: 15rem;
+  color: white;
+  .introduction {
+    font-size: xxx-large;
+    max-width: 23rem;
+  }
+  .button {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+  }
+  .button:hover {
+    text-decoration: underline;
+  }
 }
