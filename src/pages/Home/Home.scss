@@ -344,5 +344,12 @@
     cursor: pointer;
     margin-top: 1.75rem;
   }
-  .
+  .features {
+    display: flex;
+    align-items: center;
+  }
+  .newslink {
+    height: 2rem;
+    width: 10rem;
+  }
 }
