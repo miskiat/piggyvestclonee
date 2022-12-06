@@ -27,8 +27,27 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="girly">
-        <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/header_Img_a2a9220bd6/header_Img_a2a9220bd6.png" />
+      <div className="girly-container">
+        <div className="girly">
+          <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/header_Img_a2a9220bd6/header_Img_a2a9220bd6.png" />
+          <img
+            className="investify"
+            src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/card2_7a8c09a44c/card2_7a8c09a44c.png"
+          />
+          <img
+            className="myrent"
+            src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/card1_565f256c81/card1_565f256c81.png"
+          />
+
+          <path
+            d="M34.5601 36.8001H8.64014V28.4001H26.2401V10.5601H34.5601V36.8001Z"
+            fill="#7913E5"
+          ></path>
+          <path
+            d="M72.1602 36.8001H46.2402V10.5601H54.5602V28.4001H72.1602V36.8001Z"
+            fill="#7913E5"
+          ></path>
+        </div>
       </div>
     </div>
   );
