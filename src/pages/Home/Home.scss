@@ -301,3 +301,47 @@
     margin-top: 30rem;
   }
 }
+.review {
+  margin-left: 45rem;
+  .launch {
+    max-width: 26rem;
+    font-size: large;
+  }
+
+  .account {
+    background-color: black;
+    color: white;
+    border: blue;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 400;
+    margin: 2rem 0 0;
+  }
+  .account:hover {
+    background-color: rgb(22, 97, 238);
+  }
+  .download {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    border-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  .download-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .download:hover {
+    cursor: pointer;
+    margin-top: 1.75rem;
+  }
+}
