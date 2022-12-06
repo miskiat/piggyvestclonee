@@ -7,6 +7,7 @@ import Investment from "../../components/Investment";
 import Plan from "../../components/Plan";
 import Ambassador from "../../components/Ambassador";
 import Review from "../../components/Review";
+import Features from "../../components/Features";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Plan />
       <Ambassador />
       <Review />
+      <Features />
     </div>
   );
 };
