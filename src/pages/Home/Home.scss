@@ -105,14 +105,16 @@
     margin-top: 1.75rem;
   }
   .girly-container {
-    height: 40rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    height: 35rem;
     width: 23rem;
     border: 3px solid black;
     border-radius: 2rem;
     display: flex;
 
     align-items: center;
-    background-color: blue;
+    // background-color: blue;
   }
   .girly {
     margin-left: -3rem;
