@@ -110,7 +110,7 @@
     height: 35rem;
     width: 23rem;
     border: 3px solid black;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
 
     align-items: center;
@@ -142,6 +142,11 @@
       position: absolute;
       left: -10%;
       top: -5%;
+    }
+    .circlee {
+      position: absolute;
+      bottom: 65%;
+      right: -6%;
     }
   }
 }

@@ -40,6 +40,7 @@ const Hero = () => {
           />
           <img className="circle" src="/public/circle.svg" />
           <img className="angle" src="/public/angle.svg" />
+          <img className="circlee" src="/public/circlee.svg" />
         </div>
       </div>
     </div>
