@@ -38,7 +38,8 @@ const Hero = () => {
             className="myrent"
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/card1_565f256c81/card1_565f256c81.png"
           />
-          <img src="/public/circle.svg" />
+          <img className="circle" src="/public/circle.svg" />
+          <img className="angle" src="/public/angle.svg" />
         </div>
       </div>
     </div>
