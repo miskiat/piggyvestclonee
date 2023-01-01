@@ -14,7 +14,7 @@ const Ambassador = () => {
           </p>
           <div>
             <img />
-            <p className="button">Meet Tito</p>
+            <p className="button">Meet The Oyetade's</p>
           </div>
         </div>
       </div>
