@@ -8,6 +8,7 @@ import Plan from "../../components/Plan";
 import Ambassador from "../../components/Ambassador";
 import Review from "../../components/Review";
 import Features from "../../components/Features";
+import Footer from "../../components/Footer";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <Ambassador />
       <Review />
       <Features />
+      <Footer />
     </div>
   );
 };
