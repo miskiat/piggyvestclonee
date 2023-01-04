@@ -386,8 +386,9 @@
   padding-left: 8rem;
   cursor: pointer;
 }
-.footer {
+.footers {
   display: flex;
+  flex-direction: row;
 
   .product-footer {
   }

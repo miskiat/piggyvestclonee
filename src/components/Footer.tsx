@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="logo-links">
         <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/logo_08e6965627/logo_08e6965627.svg" />
       </div>
-      <div className="footer">
+      <div className="footers">
         <div className="product-footer">
           <div>Products</div>
           <p>piggyvest</p>
